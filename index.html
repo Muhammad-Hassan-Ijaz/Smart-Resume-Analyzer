@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer - Smart Career Enhancement Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <i class="fas fa-brain"></i>
+                    <span>AI Resume Analyzer</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <button class="btn btn-outline" onclick="launchApp()">Sign In</button>
+                    <button class="btn btn-primary" onclick="launchApp()">Get Started</button>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fas fa-bolt"></i>
+                    AI-Powered Career Enhancement
+                </div>
+                <h1>Transform Your Career with <span class="gradient-text">AI Resume Analysis</span></h1>
+                <p>Get instant AI-powered feedback, optimize your resume for any job, and land your dream position with our advanced career enhancement platform.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg" onclick="http://localhost:8502/#testimonials">
+                        Analyze Your Resume Now
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-outline btn-lg" onclick="showDemo()">
+                        Watch Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Floating Elements -->
+        <div class="floating-element element-1"></div>
+        <div class="floating-element element-2"></div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Accuracy Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Resumes Analyzed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">Interview Success</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">AI Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful AI-Driven Features</h2>
+                <p>Everything you need to optimize your resume and accelerate your career growth</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" onclick="launchApp()">
+                    <div class="feature-icon blue">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Smart Resume Analysis</h3>
+                    <p>Get detailed AI-powered analysis with match scoring, keyword optimization, and specific recommendations for improvement.</p>
+                    <div class="feature-cta">
+                        <span>Try Now <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="feature-card" onclick="launchApp()">
+                    <div class="feature-icon purple">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>AI Career Coach</h3>
+                    <p>Ask questions about your resume and get intelligent responses from our advanced AI assistant.</p>
+                    <div class="feature-cta">
+                        <span>Try Now <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="feature-card" onclick="launchApp()">
+                    <div class="feature-icon green">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Resume Comparison</h3>
+                    <p>Compare multiple resumes side-by-side to determine the best fit for specific positions.</p>
+                    <div class="feature-cta">
+                        <span>Try Now <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="feature-card" onclick="launchApp()">
+                    <div class="feature-icon orange">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Cover Letter Generator</h3>
+                    <p>Generate personalized, professional cover letters tailored to specific job applications.</p>
+                    <div class="feature-cta">
+                        <span>Try Now <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="feature-card" onclick="launchApp()">
+                    <div class="feature-icon pink">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Private</h3>
+                    <p>Your data is encrypted and secure. We never share your personal information or resume content.</p>
+                    <div class="feature-cta">
+                        <span>Learn More <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="feature-card" onclick="launchApp()">
+                    <div class="feature-icon teal">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Real-time Insights</h3>
+                    <p>Get instant feedback and track your resume optimization progress with detailed analytics.</p>
+                    <div class="feature-cta">
+                        <span>Try Now <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Get professional resume analysis in just three simple steps</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-item" onclick="launchApp()">
+                    <div class="step-number">1</div>
+                    <h3>Upload Your Resume</h3>
+                    <p>Simply upload your resume in PDF format and provide the job description you're targeting.</p>
+                    <button class="btn btn-outline step-btn">Start Upload</button>
+                </div>
+
+                <div class="step-item" onclick="launchApp()">
+                    <div class="step-number">2</div>
+                    <h3>AI Analysis</h3>
+                    <p>Our advanced AI analyzes your resume against the job requirements and industry standards.</p>
+                    <button class="btn btn-outline step-btn">See Analysis</button>
+                </div>
+
+                <div class="step-item" onclick="launchApp()">
+                    <div class="step-number">3</div>
+                    <h3>Get Results</h3>
+                    <p>Receive detailed feedback, match scores, and actionable recommendations to improve your resume.</p>
+                    <button class="btn btn-outline step-btn">View Results</button>
+                </div>
+            </div>
+
+            <div class="steps-cta">
+                <button class="btn btn-primary btn-lg" onclick="launchApp()">
+                    <i class="fas fa-play"></i>
+                    Start Your Analysis Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefits-content">
+                    <h2>Why Choose Our AI Resume Analyzer?</h2>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>Advanced AI Technology</h3>
+                                <p>Powered by Google's Gemini AI for the most accurate and comprehensive analysis.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>Industry-Specific Insights</h3>
+                                <p>Get tailored recommendations based on your target industry and role.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>Instant Results</h3>
+                                <p>Get comprehensive analysis and feedback in seconds, not days.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>Continuous Improvement</h3>
+                                <p>Track your progress and optimize your resume for better results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-lg benefits-cta" onclick="launchApp()">
+                        <i class="fas fa-rocket"></i>
+                        Experience the Difference
+                    </button>
+                </div>
+                <div class="benefits-visual" onclick="launchApp()">
+                    <div class="score-card">
+                        <div class="score-header">
+                            <span>Match Score</span>
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="score-value">92%</div>
+                        <div class="score-bar">
+                            <div class="score-progress" style="width: 92%"></div>
+                        </div>
+                        <div class="score-metrics">
+                            <div class="score-metric">
+                                <span>Keywords Match</span>
+                                <span class="excellent">Excellent</span>
+                            </div>
+                            <div class="score-metric">
+                                <span>Experience Relevance</span>
+                                <span class="good">Very Good</span>
+                            </div>
+                            <div class="score-metric">
+                                <span>Skills Alignment</span>
+                                <span class="excellent">Perfect</span>
+                            </div>
+                        </div>
+                        <div class="score-cta">
+                            <span>Click to see your score</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Users Say</h2>
+                <p>Join thousands of professionals who have transformed their careers</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" onclick="launchApp()">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"This AI resume analyzer helped me land my dream job at a Fortune 500 company. The insights were incredibly detailed and actionable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar blue">S</div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Johnson</div>
+                            <div class="author-title">Software Engineer</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-cta">
+                        <span>Get similar results <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" onclick="launchApp()">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The AI coach feature is amazing! It answered all my questions about resume optimization and helped me improve my match score by 40%."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar green">M</div>
+                        <div class="author-info">
+                            <div class="author-name">Michael Chen</div>
+                            <div class="author-title">Marketing Manager</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-cta">
+                        <span>Try AI Coach <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" onclick="launchApp()">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"I was struggling to get interviews, but after using this tool and following the recommendations, I got 3 job offers in 2 weeks!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar orange">E</div>
+                        <div class="author-info">
+                            <div class="author-name">Emily Rodriguez</div>
+                            <div class="author-title">Data Analyst</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-cta">
+                        <span>Start your success <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-bottom">
+                <button class="btn btn-primary btn-lg" onclick="launchApp()">
+                    <i class="fas fa-users"></i>
+                    Join Our Success Stories
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Career?</h2>
+                <p>Join thousands of professionals who have already optimized their resumes and landed their dream jobs with our AI-powered platform.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-white btn-lg" onclick="launchApp()">
+                        Start Free Analysis
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-outline-white btn-lg" onclick="launchApp()">
+                        Try Premium Features
+                    </button>
+                </div>
+                <div class="cta-features">
+                    <div class="cta-feature" onclick="launchApp()">
+                        <i class="fas fa-check"></i>
+                        <span>No Credit Card Required</span>
+                    </div>
+                    <div class="cta-feature" onclick="launchApp()">
+                        <i class="fas fa-check"></i>
+                        <span>Instant Results</span>
+                    </div>
+                    <div class="cta-feature" onclick="launchApp()">
+                        <i class="fas fa-check"></i>
+                        <span>100% Secure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo" onclick="launchApp()">
+                        <i class="fas fa-brain"></i>
+                        <span>AI Resume Analyzer</span>
+                    </div>
+                    <p>Transform your career with AI-powered resume analysis and optimization.</p>
+                    <button class="btn btn-primary footer-cta" onclick="launchApp()">
+                        <i class="fas fa-play"></i>
+                        Launch App
+                    </button>
+                </div>
+                <div class="footer-col">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#" onclick="launchApp()">Resume Analysis</a></li>
+                        <li><a href="#" onclick="launchApp()">AI Career Coach</a></li>
+                        <li><a href="#" onclick="launchApp()">Cover Letter Generator</a></li>
+                        <li><a href="#" onclick="launchApp()">Resume Comparison</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Access</h3>
+                    <ul>
+                        <li><a href="#" onclick="launchApp()">Sign Up</a></li>
+                        <li><a href="#" onclick="launchApp()">Login</a></li>
+                        <li><a href="#" onclick="launchApp()">Free Trial</a></li>
+                        <li><a href="#" onclick="launchApp()">Premium</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#" onclick="launchApp()">Help Center</a></li>
+                        <li><a href="#" onclick="launchApp()">Contact Support</a></li>
+                        <li><a href="#" onclick="launchApp()">Live Chat</a></li>
+                        <li><a href="#" onclick="launchApp()">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Resume Analyzer. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" onclick="launchApp()">Privacy Policy</a>
+                    <a href="#" onclick="launchApp()">Terms of Service</a>
+                    <a href="#" onclick="launchApp()">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h3>Launching AI Resume Analyzer...</h3>
+            <p>Preparing your personalized career enhancement experience</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
