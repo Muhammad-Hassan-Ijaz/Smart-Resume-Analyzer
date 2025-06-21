@@ -8,14 +8,9 @@ import re
 import time
 import uuid
 from db_utils import (
-    setup_database, 
-    register_user, 
-    login_user, 
-    get_user_by_id,
-    test_database_connection,
+    register_user,
     save_resume,
     get_user_resumes,
-    delete_resume,
     connect_db
 )
 
