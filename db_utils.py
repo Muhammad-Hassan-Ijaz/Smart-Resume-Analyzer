@@ -1,4 +1,5 @@
 import mysql.connector
+import mysql
 import os
 import uuid
 from datetime import datetime
